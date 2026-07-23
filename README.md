@@ -3,22 +3,38 @@ Interactive Power BI dashboard analyzing the Olist Brazilian E-commerce dataset 
 
 # 🛒 Olist Sales Dashboard | End-to-End Data Analytics Project
 
-An end-to-end **Data Analytics** project built using the **Olist Brazilian E-commerce Dataset**. The project involves **SQL**, **Python (Pandas, NumPy)**, **Exploratory Data Analysis (EDA)**, **Power BI**, **Power Query**, and **DAX** to extract business insights from raw e-commerce data.
+An end-to-end **Data Analytics** project built using the **Olist Brazilian E-commerce Dataset**. The project demonstrates data extraction, cleaning, exploratory data analysis, data modeling, and interactive dashboard development to generate actionable business insights.
 
 ---
 
 ## 📌 Project Workflow
 
-```mermaid
-flowchart LR
-    A[Raw Olist Dataset] --> B[SQL Data Extraction]
-    B --> C[Python Data Cleaning]
-    C --> D[Exploratory Data Analysis (EDA)]
-    D --> E[Power Query]
-    E --> F[Data Modeling]
-    F --> G[DAX Measures]
-    G --> H[Interactive Power BI Dashboard]
-    H --> I[Business Insights]
+```
+Raw Olist Dataset
+        │
+        ▼
+SQL Data Extraction
+        │
+        ▼
+Python Data Cleaning
+        │
+        ▼
+Exploratory Data Analysis (EDA)
+        │
+        ▼
+Power Query
+        │
+        ▼
+Data Modeling
+        │
+        ▼
+DAX Measures & KPIs
+        │
+        ▼
+Interactive Power BI Dashboard
+        │
+        ▼
+Business Insights
 ```
 
 ---
@@ -38,32 +54,29 @@ flowchart LR
 
 ## 📊 Project Pipeline
 
-### 1️⃣ SQL
+### SQL
 - Data extraction
-- Joins between multiple tables
-- Data filtering and aggregation
+- Table joins
+- Filtering and aggregation
 
-### 2️⃣ Python
+### Python
 - Data cleaning
 - Missing value handling
 - Data transformation
-- Feature engineering
 
-### 3️⃣ Exploratory Data Analysis (EDA)
-- Revenue trends
-- Customer distribution
+### Exploratory Data Analysis (EDA)
+- Sales trend analysis
+- Customer analysis
 - Product category analysis
 - Freight cost analysis
-- State-wise sales analysis
-- Correlation analysis
+- State-wise revenue analysis
 
-### 4️⃣ Power BI
-- Data Modeling
-- DAX Measures
-- Interactive Dashboard
-- KPI Cards
-- Slicers
-- Business Visualizations
+### Power BI
+- Data modeling
+- DAX measures
+- KPI cards
+- Interactive dashboard
+- Business visualizations
 
 ---
 
@@ -74,7 +87,7 @@ flowchart LR
 - 📦 Average Order Value
 - 🚚 Average Freight Cost
 - 📊 Average Items per Order
-- 🗺️ Revenue by State
+- 🌎 States Served
 - 📈 Revenue Trend
 - 🛍️ Product Category Analysis
 - 🚚 Freight Cost by Category
@@ -86,7 +99,7 @@ flowchart LR
 
 - Identified top-performing product categories.
 - Compared revenue across Brazilian states.
-- Analyzed freight cost trends.
+- Analyzed freight costs across product categories.
 - Tracked revenue growth over time.
 - Built an interactive dashboard for business decision-making.
 
@@ -108,6 +121,15 @@ olist-sales-dashboard/
 
 ---
 
+## 📷 Dashboard Preview
+
+> Upload your dashboard screenshot as `screenshots/dashboard.png`.
+
+![Dashboard Preview](<img width="481" height="271" alt="image" src="https://github.com/user-attachments/assets/c68ead7a-9d11-4248-bb81-b48e7b81535e" />
+)
+
+---
+
 ## 🚀 Skills Demonstrated
 
 - SQL
@@ -121,13 +143,6 @@ olist-sales-dashboard/
 - Power BI
 - Data Visualization
 - Business Intelligence
-
----
-
-## 📷 Dashboard Preview
-
-![Dashboard Preview]<img width="482" height="272" alt="image" src="https://github.com/user-attachments/assets/3b009730-d267-4f24-908e-5765a779f64f" />
-
 
 ---
 
