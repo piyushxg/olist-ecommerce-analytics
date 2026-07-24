@@ -1,7 +1,4 @@
-# olist-sales-dashboard
-Interactive Power BI dashboard analyzing the Olist Brazilian E-commerce dataset with sales, customer, product, and regional insights.
-
-# 🛒 Olist Sales Dashboard | End-to-End Data Analytics Project
+# 🛒 Olist E-Commerce Sales Analytics| End-to-End Data Analytics Project
 
 An end-to-end **Data Analytics** project built using the **Olist Brazilian E-commerce Dataset**. The project demonstrates data extraction, cleaning, exploratory data analysis, data modeling, and interactive dashboard development to generate actionable business insights.
 
